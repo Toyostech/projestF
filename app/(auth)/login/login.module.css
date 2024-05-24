@@ -1,0 +1,10 @@
+.container{
+    background-image: url('/public/About_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}

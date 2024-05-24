@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    gap: 100px;
+    color: white;
+}
+.imgcontainer{
+    flex: 1;
+    position: relative;
+    height: calc(100vh - 200px);
+}
+
+.textcontainer{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+ 
+
+ 
+.title{
+    font-size: 64px;
+}
+.detail{
+    display: flex;
+    gap: 10px;
+}
+
+.detailimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.detailText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.detailTitle, .author{
+    color: gray;
+    font-weight: bold;
+}
+
+.detailValue {
+    color: white;
+    font-weight: bold;
+}
+
+.contect{
+    font-size: 20px;
+}
+/* .link{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+} */
+
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgcontainer{
+        display: none;
+    }
+    
+}

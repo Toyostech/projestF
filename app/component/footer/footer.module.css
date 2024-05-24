@@ -1,0 +1,46 @@
+.container {
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: -1;
+   
+}
+.container h1{
+    color: rgb(46, 0, 252);
+}
+
+.foottitle {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.foottitle li{
+    gap: 20px;
+    padding: 5px;
+}
+
+.footlogo{
+    display: flex;
+    align-self: center;
+    gap: 45px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+    }
+    .container h1{
+        font-size: 25px;
+    }
+
+    
+}
